@@ -92,3 +92,5 @@ Observation: Your config.ts contains hardcoded "Default" API keys (DEFAULT_BRAPI
 Warning: While not strictly an App Store rejection reason, if these keys have usage limits or billing attached to you, releasing them in a public app can lead to them being scraped or your quotas being exhausted immediately. It is highly recommended to use a proxy backend or force users to enter their own keys to avoid service disruption.
 Finance Category:
 Since this is a Finance app, Apple Reviewers are stricter. Ensure the "Not Financial Advice" disclaimer is visible in the app (e.g., on the login screen footer or settings menu), not just in the Terms document.
+Subscriptions and Payments are processed by Apple via In-App Purchase. We do not store credit card information.
+Google Gemini processes data according to Google’s privacy and security standards. We do not use AI outputs as the sole source for financial decisions.
